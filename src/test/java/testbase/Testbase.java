@@ -13,7 +13,9 @@ import org.openqa.selenium.firefox.ProfilesIni;
 public class Testbase {
 	
 	public WebDriver driver ;
-	
+	public void webdriver(){
+		system.out.println("webdriver");
+	}
 	public WebDriver launchbrowser(String browser)
 	{
 		if(browser.equals("chrome"))
